@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(roboto-regular.ttf);
+}
+ body {
+    background-color: #5052E2;
+}
+header{
+    display: flex;
+}
+.dots {
+    width: 24.16px;
+    height: 24.16px;
+}
+.row1{
+    width: 24.16px;
+    height: 5.68px;
+    display: flex;
+    margin-top: 28.73px;
+    margin-left: 23.64px;
+}
+.row2 {
+    width: 24.16px;
+    height: 5.68px;
+    display: flex;
+    margin-left: 23.64px;
+    margin-top: 3.25px;
+}
+.row3 {
+    width: 24.16px;
+    height: 5.68px;
+    display: flex;
+    margin-left: 23.64px;
+    margin-top: 3.25px;
+}
+.dot {
+    background-color: white;
+    height: 5.68px;
+    width: 5.68px;
+    margin-left: 3.25px;
+    margin-bottom: 3.25px;
+}
+.dot1 {
+    background-color: white;
+    height: 5.68px;
+    width: 5.68px;
+    margin-bottom: 3.25px;
+}
+.hcrowdfundsp {
+    font-family: 'Poppins';
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 27px;
+    margin-top: 26.78px;
+    color: white;
+    margin-left: 70.57px;
+}
+.user-pfp-img {
+    border-radius: 100%;
+}
+.user {
+    max-width: 138px;
+    display: flex;
+    margin-left: 1056.07px;
+    align-items: center;
+    padding-right: 28px;
+}
+.user-name {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+    margin-left: 14px;
+    width: 57px;
+}
+.main-text-section {
+    margin-top: 157px;
+    margin-left: 320px;
+    width: 800px;
+}
+.mtip {
+    font-family: 'Poppins';
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 82px;
+    color: white;
+}
+.mtep {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.2px;
+    color: white;
+    opacity: 0.8;
+}
+.div3sec {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 150px;
+    width: 1140px;
+    height: 260px;
+}
+.post1, .post2, .post3 {
+    width: 360px;
+    background-color: white;
+    height: 100%;
+    padding-top: 27px;
+    padding-left: 30px;
+
+}
+.post2, .post3 {
+    margin-left: 60px;
+}
+.post-user {
+    display: flex;
+    max-width: 215px;
+}
+.post-pfp-img {
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.post-user-name {
+    margin-left: 15.5px;
+    margin-top: 11px;
+}
+.punp {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #1B1B1B;
+}
+.punp2 {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #9B9B9B;
+}
+.the-post {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1B1B1B;
+}
+.hashtag {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2C99ED;
+}
+.post-date {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #9B9B9B;
+    margin-top: 20px;
+}
+.company-sec {
+    margin-top: 40px;
+    margin-left: 572px;
+}
+.become-one-of-us {
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
+.companies {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.8;
+    color: white;
+}
+footer {
+    width: 1440px;
+    margin-top: 134.5px;
+    padding-left: 44.64px;
+    padding-right: 60.36px;
+    display: flex;
+}
+.contact, .help, .terms, .privacy {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: white;
+}
+.cfa {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: white;
+    opacity: 0.8;
+}
+.co-button, .help-button, .terms-button, .pr-button, .dot-button, .twitter-button, .fb-button, .yt-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.help-button {
+    margin-left: 31px;
+}
+.terms-button {
+    margin-left: 33px;
+}
+.pr-button {
+    margin-left: 34px;
+}
+.smbs {
+    margin-left: 337px;
+}
+.bd {
+    margin-left: 193px;
+    display: flex;
+}
+.twitter-button {
+    margin-left: auto;
+}
